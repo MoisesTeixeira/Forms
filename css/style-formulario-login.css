@@ -41,34 +41,35 @@ input
 {
     display: block;
     width: 80%;
-    margin: 0 auto 0.8rem;
+    margin: 0 auto 1rem;
     padding: 0.8rem;
     font-size: 0.8rem;
     color: #fff;
     background: #2e2d42;
     border: 1.5px solid rgb(37, 37, 37);
     border-radius: 6px;
-    box-shadow: 0 0.5px 5px #000;
-    text-shadow: 0 1.4px 3px #000;
+    outline: none;
+    box-shadow: 0 0.5px 5px #000000;
+    text-shadow: 0 1.4px 3px rgb(0, 0, 0, 0.2);
     transition: 1s;
 }
 
-input:hover
+input:focus, input:hover
 {
     background: #383636;
 }
 
-.enviar
+.botao
 {
     font-size: 1rem;
     font-weight: bold;
     background: linear-gradient(-0.1deg, #4c74c0 75.45%, rgb(138, 169, 255));
     border: none;
-    box-shadow: 0 0.5px 5px #000;
+    box-shadow: 0 0.5px 5px rgb(0, 0, 0, 0.2);
     transition: 1s;
 }
 
-.enviar:hover
+.botao:hover
 {
     transform: scale(1.1) translateY(5px);
     background: #3f69b6;
