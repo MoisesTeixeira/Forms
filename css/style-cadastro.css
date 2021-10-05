@@ -1,0 +1,42 @@
+body
+{
+    background-image: radial-gradient(circle at -4.17% 95.45%, #665b8d 0, #403c75 25%, #0b1d5c 50%, #000044 75%, #000031 100%);
+    background-attachment: fixed;
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #fff;
+}
+
+.contaner
+{
+    width: 60vh;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+
+header
+{
+    margin: 2rem 0 4rem;
+}
+
+h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+form
+{
+    background: rgba(0, 0, 0, 0.5);
+    border:2px solid #fff;
+}
+img
+{
+    width: 100px;
+}
+
+label, input
+{
+    display: block;
+}
