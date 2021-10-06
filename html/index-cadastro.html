@@ -9,36 +9,53 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style-cadastro.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <div class="contaner">
-        <header>
-            <h1>Formulário Teste</h1>
-        </header>
         <main>
             <section>
                 <form action="">
-                    <img src="../img/twotone_account_circle_black_24dp.png" alt="">
+                    <div class="box-img-account">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
                     <fieldset>
-                        <legend>Create Account!</legend>
-                        <label>Name
-                            <input type="text" id="name" name="q" placeholder="enter your name" autofocus required>
-                            <img src="" alt="">
-                        </label>
-                        <label>E-mail
-                            <input type="email" id="email" name="q" placeholder="enter your e-mail" autofocus required>
-                            <img src="" alt="">
-                        </label>
-                        <label>Password
-                            <input type="password" id="password" name="q" placeholder="enter a name" autofocus required>
-                            <img src="" alt="">
-                        </label>
-                        <input class="botao" type="submit" value="Create">
-                        <div>
+                        <legend>Create account!</legend>
+                        <div class="container-campo-de-dados">
+                            <label>Name
+                                <input type="text" id="name" name="q" placeholder="enter your name" autofocus required>
+                                <i class="fas fa-user"></i>
+                            </label>
+                            <label>E-mail
+                                <input type="email" id="email" name="q" placeholder="enter your e-mail" autofocus
+                                    required>
+                                <i class="fas fa-envelope"></i>
+                            </label>
+                            <label>Password
+                                <input type="password" id="password" name="q" placeholder="enter a name" autofocus
+                                    required>
+                                <i class="fas fa-lock"></i>
+                            </label>
+                            <button class="botao">
+                                <span>Create</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="opcoes-cadastro">
                             <span>Or create account using social medial</span>
-                            <img src="" alt="">
+                            <div class="icons">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                            </div>
                         </div>
                     </fieldset>
                 </form>

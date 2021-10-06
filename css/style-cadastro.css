@@ -8,14 +8,17 @@ body
 
 .contaner
 {
-    width: 60vh;
-    margin: 0 auto;
+    width: 65vh;
+    margin: 1.1rem auto;
+    background: rgba(0, 0, 0, 0.5);
     border: 2px solid #000;
+    border-radius: 5px;
+    transition: 1s;
 }
 
-header
+.contaner:hover
 {
-    margin: 2rem 0 4rem;
+    border: 2px solid #57bd53;
 }
 
 h1
@@ -26,17 +29,117 @@ h1
     text-align: center;
 }
 
-form
+i[class="fas fa-user-circle"]
 {
-    background: rgba(0, 0, 0, 0.5);
-    border:2px solid #fff;
+    display: block;
+    margin: 2rem 0 0.5rem;
+    font-size: 2rem;
+    text-align: center;
 }
-img
+
+legend
 {
-    width: 100px;
+    margin-bottom: 2.5rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.container-campo-de-dados
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+label
+{
+    margin: 0 auto 1.5rem;
+    font-size: 0.8rem;
+    position: relative;
 }
 
 label, input
 {
     display: block;
+}
+
+label > i
+{
+    position: absolute;
+    right: 0.7rem;
+    bottom: 1rem;
+}
+
+input
+{
+    width: 100%;
+    margin-top: 0.2rem;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    border: 0.5px solid;
+    outline: none;
+    background: #2e2d42;
+}
+
+input:hover
+{
+    outline: 0.1rem solid #57bd53;
+}
+
+.botao
+{
+    width: 50%;
+    margin: 2.5rem 0 1.8rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    text-shadow: 0 1px 3px rgb(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.7);
+    background: #98ff96;
+    transition: 1s;
+}
+
+.botao:hover
+{
+    transform: translateY(-10px);
+    outline: 0.2rem solid rgba(0, 0, 0, 0.5);
+    background: #57bd53;
+}
+
+i[class="fas fa-arrow-right"]
+{
+    margin-left: 5px;
+}
+
+.opcoes-cadastro
+{
+    width: 92%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-align: center;
+    border-top: 0.5px solid #fff;
+}
+
+.opcoes-cadastro > span
+{
+    display: inline-block;
+    margin: 1.8rem 0 1rem;
+}
+
+.icons
+{
+    margin-bottom: 2.5rem;
+}
+
+a > i[class]:hover
+{
+    transition: 0.3s;
+    color: #57bd53;
+}
+
+i[class="fab fa-github"]
+{
+    margin: 0 0.5rem;
 }
