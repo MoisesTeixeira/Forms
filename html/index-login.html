@@ -9,24 +9,35 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style-login.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
-        <header>
-            <h1>Formulário Teste</h1>
-        </header>
         <main>
             <section>
                 <form action="http://google.com" method="POST" target="blank">
                     <fieldset>
-                        <legend>Login</legend>
-                        <input type="email" id="usuario" name="q" placeholder="Username" required autofocus>
-                        <input type="password" id="senha" name="q" placeholder="Password" required>
-                        <input class="botao" type="submit" value="Let me in.">
+                        <div class="fill-field-and-button">
+                            <legend>Login</legend>
+                            <input type="email" id="usuario" name="q" placeholder="Username" required autofocus>
+                            <i class="fas fa-envelope"></i>
+                            <input type="password" id="senha" name="q" placeholder="Password" required>
+                            <i class="fas fa-lock"></i>
+                            <button class="botao">
+                                <span>Let me in.</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="option-to-create-account">
+                            <p class="text-create-account">Or creat an account</p>
+                            <p class="sign-up"><a href="../html/index-create-account.html">Sign up</a></p>
+                        </div>
                     </fieldset>
                 </form>
             </section>
         </main>
     </div>
 </body>
+
 </html>
